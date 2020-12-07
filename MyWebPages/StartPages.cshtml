@@ -1,0 +1,26 @@
+﻿@using System;
+@using Users.Common;
+@{
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <style>
+        h1 {
+            background-color: black;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        @DependensiesLogic.UsersBLL.ShowUsersList();
+    </div>
+</body>
+</html>
